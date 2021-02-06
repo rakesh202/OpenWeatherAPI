@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Open Weather Map" parallel="false" thread-count="5" >
+  <test name="Open Weather Map">
+    <classes>
+      
+    <class name="com.api.test.apiWithOutAPIKeyTest"/>
+    <class name="com.api.test.CreateAPI"/>
+    <class name="com.api.test.apiGetAPI"/>
+    <class name="com.api.test.apiDeleteAPI"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

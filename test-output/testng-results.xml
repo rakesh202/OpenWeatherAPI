@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Open Weather Map" duration-ms="12390" started-at="2021-02-06T11:35:12Z" finished-at="2021-02-06T11:35:25Z">
+    <groups>
+    </groups>
+    <test name="Open Weather Map" duration-ms="12390" started-at="2021-02-06T11:35:12Z" finished-at="2021-02-06T11:35:25Z">
+      <class name="com.api.test.apiWithOutAPIKeyTest">
+        <test-method status="PASS" signature="getAPIWithAPIId()[pri:0, instance:com.api.test.apiWithOutAPIKeyTest@3fee9989]" name="getAPIWithAPIId" duration-ms="4733" started-at="2021-02-06T17:05:12Z" finished-at="2021-02-06T17:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIWithAPIId -->
+      </class> <!-- com.api.test.apiWithOutAPIKeyTest -->
+      <class name="com.api.test.apiGetAPI">
+        <test-method status="PASS" signature="getAPIWithAPIId()[pri:0, instance:com.api.test.apiGetAPI@5700d6b1]" name="getAPIWithAPIId" duration-ms="365" started-at="2021-02-06T17:05:23Z" finished-at="2021-02-06T17:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIWithAPIId -->
+      </class> <!-- com.api.test.apiGetAPI -->
+      <class name="com.api.test.CreateAPI">
+        <test-method status="PASS" signature="createStationAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.api.test.CreateAPI@1ce92674]" name="createStationAPI" duration-ms="3040" started-at="2021-02-06T17:05:19Z" data-provider="getStationData" finished-at="2021-02-06T17:05:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Interview1 ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[33.33]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-11.44]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[444.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createStationAPI -->
+        <test-method status="PASS" signature="createStationAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.api.test.CreateAPI@1ce92674]" name="createStationAPI" duration-ms="520" started-at="2021-02-06T17:05:22Z" data-provider="getStationData" finished-at="2021-02-06T17:05:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Interview2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[33.44]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-11.55]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[444.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createStationAPI -->
+      </class> <!-- com.api.test.CreateAPI -->
+      <class name="com.api.test.apiDeleteAPI">
+        <test-method status="PASS" signature="getDeleteAPI()[pri:0, instance:com.api.test.apiDeleteAPI@6fd02e5]" name="getDeleteAPI" duration-ms="1884" started-at="2021-02-06T17:05:23Z" finished-at="2021-02-06T17:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDeleteAPI -->
+      </class> <!-- com.api.test.apiDeleteAPI -->
+    </test> <!-- Open Weather Map -->
+  </suite> <!-- Open Weather Map -->
+</testng-results>
